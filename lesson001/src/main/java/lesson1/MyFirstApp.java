@@ -89,11 +89,12 @@ public class MyFirstApp {
         if (year%4 != 0  ) {
             flag = false;
         }
-        else if ( (year%100 == 0) & (year%400 !=0) ){
+        else if ( (year%100 == 0) && (year%400 !=0) ){
             flag = false;
         }
 
         checkYearPrint(flag, year);
 
     }
+
 }
