@@ -73,7 +73,7 @@ public class MySecondApp {
         System.out.println("Задание 6");
         int[] arr6 = {1,1,1,2,1};
         System.out.println("Заданный массив :" + Arrays.toString(arr6)+ " имеет срез где сумма правой и лево части равны :" + checkArraySlice(arr6));
-
+         System.out.println();
 
 
     }
@@ -91,12 +91,10 @@ public class MySecondApp {
         for(int j=fromCount; j<toCount; j++){
             sum+=arr[j];
         }
-
         return sum;
     }
 
-    public static boolean checkArraySlice(int[] arr) {
-        int sumLeft, sumRight;
+    public static boolean checkArraySlice(int[] arr) { ;
         boolean flag = false;
 
         for (int i=1; i<arr.length; i++){
