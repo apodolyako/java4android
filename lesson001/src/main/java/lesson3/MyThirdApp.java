@@ -7,12 +7,12 @@ public class MyThirdApp {
 
         boolean flagExit = false;
         int num, d;
-        final int LIMIT =9; //какой диапазон угадывать от 0 до LIMIT
-        final int SUMTRY = 3; //количество попыток
+        final int LIMIT =10; //какой диапазон угадывать от 0 до LIMIT
+        final int SUMTRY = 4; //количество попыток
 
         do{
           num = getRandomNum(LIMIT, SUMTRY);
-          System.out.println(num);
+      //    System.out.println(num);
 
           for(int i=0; i<SUMTRY; i++){
                 d = getUserNum(LIMIT);
