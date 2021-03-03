@@ -19,16 +19,20 @@ public class Personal {
     }
 
     public Personal(String name, String pos, int age){
-        this(name, pos, 'unknown','unknown', age, 100000 )
+        this(name, pos, "unknown","unknown", age, 100000 );
 
     }
 
-    public void printStuffInfo(){
+    public int getAge() {
+        return age;
+    }
+
+    public void PersonalInfo(){
         System.out.println(this);
     }
 
     @Override
     public String toString() {
-        return "Имя сотрудника: " + name + "Должность: " + pos + "Email: " + email + "Телефон: " + phone + "Возраст: " + age + "Зарплата: " + salary;
+        return "Имя сотрудника: " + name + " || Должность: " + pos + " || Email: " + email + " || Телефон: " + phone + " || Возраст: " + age + " || Зарплата: " + salary;
     }
 }
