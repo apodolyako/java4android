@@ -11,19 +11,15 @@ public class Plate {
         return food;
     }
 
-    public boolean decreaseFood(int countFoods){
-        boolean flagFood =true;
-
-
-        if (food>countFoods){
-            food-=countFoods;
-        }else{
-       flagFood = false;
-        }
-        return flagFood;
+    public void decreaseFood(int countFoods){
+        food-=countFoods;
     }
 
     public void printInfo(){
         System.out.println("Кол-во еды в миске: " + food);
+    }
+
+    public void addFood(int food) {
+        this.food+=food;
     }
 }
