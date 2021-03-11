@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
         boolean flagNext = true;
-        Cat cat1 = new Cat("Обжора");0
+        Cat cat1 = new Cat("Обжора");
         Cat cat2 = new Cat("Вася");
         Cat cat3 = new Cat("Барсик");
         Cat cat4 = new Cat("Макар");
