@@ -1,12 +1,13 @@
 package lesson8;
 
 public class Wall implements Equipment {
-    public void printInfo{
-        System.out.println(this);
+    private int height; //высота стены
+
+    public int getHeight(){
+        return height;
     }
 
-    @Override
-    public String toString() {
-        return "Припятствие стена:";
+    public Wall(int height){
+        this.height = height;
     }
 }

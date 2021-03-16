@@ -1,12 +1,14 @@
 package lesson8;
 
 public class Track implements Equipment{
-    public void printInfo{
-        System.out.println(this);
+    private int length; //длина беговой дорожки
+
+    public int getLength(){
+        return length;
     }
 
-    @Override
-    public String toString() {
-        return "Припятствие беговая дорожка:";
+    public Track(int length){
+        this.length = length;
     }
+
 }
