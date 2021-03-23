@@ -1,14 +1,12 @@
 package lesson9;
  import java.util.Arrays;
 
-
-
 public class Main {
     public static final int MAX_SIZE = 4;  // максимальная размерность массива MAX_SIZE X MAX_SIZE
 
     public static void main(String[] args) {
-    final int SIZE_ROW = 5;
-    final int SIZE_COL = 4;
+    final int SIZE_ROW = 4;
+    final int SIZE_COL =4;
 
         String[][] strArr = new String[SIZE_ROW][SIZE_COL];
         initArr(strArr);
@@ -90,7 +88,7 @@ public class Main {
                 arr[i][j] = String.valueOf(i+1) + String.valueOf(j+1);
             }
         }
-     arr[2][3] = "test";
+     //arr[3][1] = "test";
 
     }
 
