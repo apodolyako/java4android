@@ -30,7 +30,7 @@ public class PhoneGuide {
     public void get(String name){
         ArrayList<Integer> nameIdList = new ArrayList<>();
         for (Integer id : idName.keySet()) {
-            if (idName.get(id) == name){
+            if (name.equals(idName.get(id))){
                 nameIdList.add(id);
             }
         }
