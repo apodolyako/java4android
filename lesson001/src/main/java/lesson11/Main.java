@@ -26,10 +26,10 @@ public class Main {
 
     }
 
-    public static void exchange(Object[] arr, int index1, int index2){
+    public static <T> void exchange(T[] arr, int index1, int index2){
 
         System.out.println(Arrays.toString(arr));
-        Object tmp;
+        T tmp;
         tmp = arr[index2];
         arr[index2] = arr[index1];
         arr[index1] = tmp;
